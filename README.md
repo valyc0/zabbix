@@ -126,7 +126,7 @@ docker exec -it ubuntu-zabbix-agent2 /install-zabbix.sh
 
 2. Create new rule:
    - Name: descriptive name
-   - IP range: network range
+   - IP range: network range (esempio 172.20.240.1-254)
    - Update interval: scan frequency
    - Add Zabbix agent check:
      - Type: Zabbix agent
